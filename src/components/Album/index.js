@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-import likeSvg from './assets/like.svg';
+import likeSvg from '!svg-inline-loader!./assets/like.svg';
 
 
 export default function Album({ likes, name, description, className }) {
